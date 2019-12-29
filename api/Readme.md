@@ -55,5 +55,37 @@
 + til_loc: foreign key to location
 + time_min: time spent in location
 
-Rough api requirements
-1)
+***
+
+## Rough api requirements
+
+### User
++ POST /api/user Register a user
++ GET /api/user current user
++ POST /api/user/id Modify a user
++ POST /api/user/login Login
++ POST /api/user/location Send user location
++ GET /api/user/post Get all post by a user
++ GET /api/user/area Get all area for a user
+
+### Post
++ POST /api/post Create a post
++ POST /api/post/postid Update a post
++ DELETE /api/post Delete a post
++ GET /api/post/areaid Get all post in a area
+
+### Media
+
+
+### Comment
++ POST /api/comment/postid create a comment
++ GET /api/comment/postid get all comments
+
+### Reaction
++ POST /api/reaction/postid
++ GET /api/reaction/postid
+
+### Area
+
+
+### TimeInLocation
